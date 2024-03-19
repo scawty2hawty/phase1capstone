@@ -1,0 +1,7 @@
+html {
+    background-image: linear-gradient(lightyellow, khaki);
+    height: 100%;   
+    color: blue;  
+	background-size: cover;
+    background-attachment: fixed;
+}

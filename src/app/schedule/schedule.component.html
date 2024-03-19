@@ -1,0 +1,19 @@
+<form id="theForm" (ngSubmit)="onSubmit()">
+
+    <input type="radiobox" placeholder="Number of people" name="NP" [(ngModel)]="NP">
+&nbsp; &nbsp;
+<div>
+
+<p><input type="radiobox" placeholder="Enter Meeting Topic" name ="ET" [(ngModel)]="ET"></p>
+</div>
+    <h1>Schedule a meeting</h1><div>
+<p>Start time</p>
+<input type="datetime-local" id="MTS" name="MTS"[(ngModel)]="MTS"  >
+<button type="submit" class="registerbtn" >Register</button>
+</div>
+
+
+
+</form>
+
+
